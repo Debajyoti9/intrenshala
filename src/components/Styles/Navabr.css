@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d3cece;
+    width: 100%;
+    height: 4rem;
+    position: sticky;
+}
+h2{
+    font-size: 1.8rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #111010;
+}
+.navbar__menu{
+    display: flex;
+    justify-content: flex-end;
+    flex: 0.9;
+}
+
+.navbar__menu> li{
+    list-style-type: none;
+    padding: 0 1rem;
+    color: #030324;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.navbar__button>button{
+    padding: 0.65rem 1.5rem;
+    margin: 1rem;
+    border-radius: 60px;
+    outline: none;
+    background-color: #0c0c44;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar .navbar__menu .line{
+    text-decoration: underline;
+    text-decoration-color: #0c0c44;
+    text-decoration-thickness: 0.2rem;
+}
